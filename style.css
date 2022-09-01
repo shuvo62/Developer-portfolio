@@ -51,3 +51,25 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.Experiences {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-box {
+  width: 80%;
+  margin: 5%;
+  padding: 3%;
+  box-shadow: 10px 10px 30px gray;
+  /* border-radius: 5%; */
+}
+#experience-box-1 {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#experience-box-2 {
+  border-left: 10px solid;
+  border-image: linear-gradient(Red, salmon);
+  border-image-slice: 1;
+}
